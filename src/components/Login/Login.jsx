@@ -65,7 +65,7 @@
 
 
 import React from "react";
-import JmcLogo from '../assets/jmclogo.png';
+import JmcLogo from '../../../public/jmclogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -94,8 +94,8 @@ const LoginForm = () =>
                         type="text"
                         className="w-full bg-transparent outline-none placeholder:text-gray-600 placeholder:text-sm text-black lg:text-md"
                         placeholder="USERNAME"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        // value={email}
+                        // onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
                 <div className="flex items-center border-b-2 border-black mb-8 p-1 lg:mb-10">
@@ -104,8 +104,8 @@ const LoginForm = () =>
                         type="password"
                         className="w-full bg-transparent outline-none placeholder:text-gray-600 placeholder:text-sm text-black lg:text-md"
                         placeholder="PASSWORD"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
+                        // value={password}
+                        // onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
                 <button
